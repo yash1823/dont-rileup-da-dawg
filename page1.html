@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Are You Really Sure?</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .question {
+      font-size: 1.4em;
+      margin-bottom: 40px;
+    }
+    button {
+      font-size: 1.2em;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border: 2px solid #333;
+      border-radius: 5px;
+      background-color: #ffebcd;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #ffe4b5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Are You Really Sure?</h1>
+    <p class="question">
+      You really shoudn't be clicking on random websites though<br>
+      Do you really want to proceed?
+    </p>
+    <div>
+      <button onclick="window.location.href='page2.html'">Yes, let's go!</button>
+      <button onclick="window.location.href='sorry.html'">No, I'm scared!</button>
+    </div>
+  </div>
+</body>
+</html>
